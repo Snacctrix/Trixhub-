@@ -12,7 +12,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/
     print("Infiniteyield loaded")
 end)
 local Section = Tab:NewSection("Trolling")
-Section:NewButton("FE YEET gui", "Send the players to the void", function()
+Section:NewButton("YEET gui", "Send the players to the void", function()
 local lp = game:FindService("Players").LocalPlayer
 
 local function gplr(String)
@@ -48,7 +48,7 @@ local function notif(str,dur)
 	game:FindService("StarterGui"):SetCore("SendNotification", {
 		Title = "yeet gui, modded",
 		Text = str,
-		Icon = "rbxassetid://14339031152",
+		Icon = "rbxassetid://14301447114",
 		Duration = dur or 3
 	})
 end
@@ -74,7 +74,7 @@ Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0.174545452, 0, 0.459574461, 0)
 Main.Size = UDim2.new(0, 454, 0, 218)
-Main.Image = "rbxassetid://14339031152"
+Main.Image = "rbxassetid://14301447114"
 
 Top.Name = "Top"
 Top.Parent = Main
@@ -400,9 +400,14 @@ Section:NewButton("Vfly moblie", "Fly cars on moblie", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
 end)
 local Section = Tab:NewSection("Pc scripts")
-Section:NewButton("Better roblox", "Opens the better roblox UI", function()    
+Section:NewButton("UI", "toggles the pc ui.", function()    
+wait(0.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Trolled (kinda)"; -- the title 
+Text = "Sorry but pc scripts are still in the works, some"; -- what the text says 
+Duration = 5; -- how long the notification should in secounds
+})
 
- loadstring(game:HttpGet("https://eternityhub.xyz/BetterRoblox/Loader"))()
 end)
 local Section = Tab:NewSection("usefull")
 
@@ -415,4 +420,7 @@ game:GetService("UserInputService").jumpRequest:Connect(function()
 end)
 end)
 
-local Tab = Window:NewTab("Commonly used scripts")
+
+local Tab = Window:NewTab("Game hubs/commonly used")
+
+
