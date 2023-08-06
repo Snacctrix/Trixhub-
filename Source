@@ -400,14 +400,9 @@ Section:NewButton("Vfly moblie", "Fly cars on moblie", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
 end)
 local Section = Tab:NewSection("Pc scripts")
-Section:NewButton("UI", "toggles the pc ui.", function()    
-wait(0.2)
-game.StarterGui:SetCore("SendNotification", {
-Title = "Trolled (kinda)"; -- the title 
-Text = "Sorry but pc scripts are still in the works, some"; -- what the text says 
-Duration = 5; -- how long the notification should in secounds
-})
+Section:NewButton("Better roblox", "Opens the better roblox UI", function()    
 
+ loadstring(game:HttpGet("https://eternityhub.xyz/BetterRoblox/Loader"))()
 end)
 local Section = Tab:NewSection("usefull")
 
