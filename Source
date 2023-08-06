@@ -1,4 +1,4 @@
-ewait(0.2)
+wait(0.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Welcome"; -- the title 
 Text = "Thanks for using trixhub!"; -- what the text says 
