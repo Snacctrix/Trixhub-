@@ -9,7 +9,7 @@ local Tab = Window:NewTab("main")
 local Section = Tab:NewSection("Infinite yeild")
 Section:NewButton("Infinite yield", "Gives you Infinite yield", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-    print("a")
+    print("Infiniteyield loaded")
 end)
 local Section = Tab:NewSection("Trolling")
 Section:NewButton("YEET gui", "Send the players to the void", function()
@@ -405,8 +405,6 @@ Duration = 5; -- how long the notification should in secounds
 })
 
 end)
-local Tab = Window:NewTab("Character")
+local Tab = Window:NewTab("Usefull")
 
-Section:NewSlider("SliderText", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-end)
+
