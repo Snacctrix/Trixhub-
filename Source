@@ -421,6 +421,7 @@ end)
 end)
 
 
-local Tab = Window:NewTab("Game hubs/commonly used")
+local player = Window;NewTab("Script hubs")
+local PlayerSection = Player;NewSection("Script hubs")
 
 
