@@ -12,7 +12,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/
     print("Infiniteyield loaded")
 end)
 local Section = Tab:NewSection("Trolling")
-Section:NewButton("YEET gui", "Send the players to the void", function()
+Section:NewButton("FE YEET gui", "Send the players to the void", function()
 local lp = game:FindService("Players").LocalPlayer
 
 local function gplr(String)
