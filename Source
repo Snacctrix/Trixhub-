@@ -405,6 +405,14 @@ Duration = 5; -- how long the notification should in secounds
 })
 
 end)
-local Tab = Window:NewTab("Usefull")
+local Section = Tab:NewSection("usefull")
 
+Section:NewButton("Infinite jump", "No jump cooldown", function()
+    local infjmp = true
+game:GetService("UserInputService").jumpRequest:Connect(function()
+    if infjmp then
+        game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass"Humanoid":ChangeState("Jumping")
+    end
+end)
+end)
 
