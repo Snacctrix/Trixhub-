@@ -420,3 +420,4 @@ game:GetService("UserInputService").jumpRequest:Connect(function()
 end)
 end)
 
+local Tab = Window:NewTab("Commonly used scripts")
