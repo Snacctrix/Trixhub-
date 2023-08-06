@@ -4,7 +4,7 @@ Title = "Welcome"; -- the title
 Text = "Thanks for using trixhub!"; -- what the text says 
 Duration = 5; -- how long the notification should in secounds
 })local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("snacctrix hub", "Synapse")
+local Window = Library.CreateLib("Trix93 hub", "Synapse")
 local Tab = Window:NewTab("main")
 local Section = Tab:NewSection("Infinite yeild")
 Section:NewButton("Infinite yield", "Gives you Infinite yield", function()
