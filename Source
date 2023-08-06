@@ -418,5 +418,3 @@ end)
 
 
 local Tab = Window:NewTab("Game hubs")
-
-
