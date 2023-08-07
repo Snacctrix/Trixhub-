@@ -460,3 +460,6 @@ end)
 Section:NewButton("Slap battles OP", "ButtonInfo", function()
   loadstring(game:HttpGet(("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Battles")))()
 end)
+
+local Tab = Window:NewTab("Character")
+local Section = Tab:NewSection("Config")
