@@ -441,7 +441,7 @@ Section:NewButton("Bedwars Vxpe OP", "Vape hub bedwars", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 end)
 
-Section:NewButton("Doors/cheaper and shorter", "Loads blackking hub.", function()
+Section:NewButton("Doors", "Loads blackking hub.", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing/main/BlackKingMb"))()
 end)
 
