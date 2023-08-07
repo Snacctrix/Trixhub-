@@ -457,6 +457,6 @@ Section:NewButton("Murders vs sheriffs", "?", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/rob..."))()
 end)
 
-Section:NewButton("ButtonText", "ButtonInfo", function()
-    print("Clicked")
+Section:NewButton("Slap battles OP", "ButtonInfo", function()
+  loadstring(game:HttpGet(("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Battles")))()
 end)
