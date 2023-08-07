@@ -420,6 +420,7 @@ end)
 local Tab = Window:NewTab("Game hubs")
 Section:UpdateSection("Game hubs")
 
+local Section = Tab:NewSection("Hubs")
 Section:NewButton("Ragdoll engine ", "Cookie hub, ragdoll engine", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/i4mitty/MysteryHub/main/MysteryHub%20-%20Ragdoll%20Engine.lua"))()
 end)
