@@ -425,8 +425,8 @@ Section:NewButton("Ragdoll engine ", "Cookie hub, ragdoll engine", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/i4mitty/MysteryHub/main/MysteryHub%20-%20Ragdoll%20Engine.lua"))()
 end)
 
-Section:NewButton("Bedware FLAMEX", "loads up bedwars flamex", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamingDrey/Flame-X-v2/main/Flame%20X%20Bedwars%20V2"))()
+Section:NewButton("Jailbreak", "Op", function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d214fceffa2f5e75046a674725be2ef7.lua"))()
 end)
 
 Section:NewButton("Pls donate autofarm + more", "Pd autoform animoon", function()
@@ -454,7 +454,7 @@ Section:NewButton("Prison life", "FE Admin commands", function()
 end)
 
 Section:NewButton("Murders vs sheriffs", "?", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/rob..."))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/duels/main/Roblox871"))()
 end)
 
 Section:NewButton("Slap battles OP", "ButtonInfo", function()
