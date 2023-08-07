@@ -432,3 +432,16 @@ end)
 Section:NewButton("Pls donate autofarm + more", "Pd autoform animoon", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/animooon"))()
 end)
+Section:NewButton("[OP🔥] V*pe V4  (bedwars)", "Loads up v@p3 hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+Section:NewButton("doors but cheaper & shorter", "Loads up doors but cheaper and short BlackKing hub.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing/main/BlackKingMb"))()
+end)
+
+Section:NewButton("Mm2", "Dreadzhub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DreadzHub2/DreadzHub-Scripts-FR/main/Loader"))()
+end)
+
+
