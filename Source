@@ -441,7 +441,22 @@ Section:NewButton("Bedwars Vxpe OP", "Vape hub bedwars", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 end)
 
-Section:NewButton("Doors", "Loads blackking hub.", function()
+Section:NewButton("Doors & Doors but cheaper", "Loads blackking hub.", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing/main/BlackKingMb"))()
 end)
 
+Section:NewButton("Break in OP", "Promxia hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+end)
+
+Section:NewButton("Prison life", "FE Admin commands", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Script'))()
+end)
+
+Section:NewButton("Murders vs sheriffs", "?", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/rob..."))()
+end)
+
+Section:NewButton("ButtonText", "ButtonInfo", function()
+    print("Clicked")
+end)
