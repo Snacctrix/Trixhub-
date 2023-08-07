@@ -1,4 +1,4 @@
-wait(0.2)
+wait(0.4)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Welcome"; -- the title 
 Text = "Thanks for using trixhub!"; -- what the text says 
@@ -418,9 +418,9 @@ end)
 
 
 local Tab = Window:NewTab("Game hubs")
-Section:UpdateSection("Game hubs")
 
 local Section = Tab:NewSection("Hubs")
+
 Section:NewButton("Ragdoll engine ", "Cookie hub, ragdoll engine", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/i4mitty/MysteryHub/main/MysteryHub%20-%20Ragdoll%20Engine.lua"))()
 end)
@@ -432,16 +432,16 @@ end)
 Section:NewButton("Pls donate autofarm + more", "Pd autoform animoon", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/animooon"))()
 end)
-Section:NewButton("[OP🔥] V*pe V4  (bedwars)", "Loads up v@p3 hub", function()
+
+Section:NewButton("Bedwars flameX", "FlameX hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamingDrey/Flame-X-v2/main/Flame%20X%20Bedwars%20V2"))()
+end)
+
+Section:NewButton("Bedwars Vxpe OP", "Vape hub bedwars", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 end)
 
-Section:NewButton("doors but cheaper & shorter", "Loads up doors but cheaper and short BlackKing hub.", function()
+Section:NewButton("Doors/cheaper and shorter", "Loads blackking hub.", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing/main/BlackKingMb"))()
 end)
-
-Section:NewButton("Mm2", "Dreadzhub", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/DreadzHub2/DreadzHub-Scripts-FR/main/Loader"))()
-end)
-
 
